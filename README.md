@@ -6,8 +6,7 @@ This is an example Application demonstrating Android mobile deep linking and tra
 You can run the App directly by downloading and installing the app-release.apk file following the steps below:
 
 1. Download **app-release.apk** file which exists in the *app/release* folder.
-2. Install using the below adb command
-adb install -r app-release.apk
+2. Install using the command: adb install -r app-release.apk
 
 ## Configuring Keys and Secrets
 This repository does not contain API keys so you need to define your own in order for the connected APIs to function. With the exception of the *Crashlytics ApiKey* (see the note below) the keys are defined as XML string resources and referenced at build-time. If you build the project as-is, you will get something like the following error:
