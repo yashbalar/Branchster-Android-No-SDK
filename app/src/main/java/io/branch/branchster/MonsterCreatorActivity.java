@@ -50,7 +50,6 @@ public class MonsterCreatorActivity extends Activity {
         monsterImageView_.setMonster(latestMonsterObj);
         editName.setText(latestMonsterObj.getMonsterName());
 
-
         // Go to the previous face when the user clicks the up arrow.
         findViewById(R.id.cmdUp).setOnClickListener(new Button.OnClickListener() {
             @Override

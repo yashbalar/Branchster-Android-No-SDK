@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'key0'
             keyPassword 'branch123'
-            storeFile file('/Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/keystore/Cert')
+            storeFile file('./keystore/Cert')
             storePassword 'branch123'
         }
     }
