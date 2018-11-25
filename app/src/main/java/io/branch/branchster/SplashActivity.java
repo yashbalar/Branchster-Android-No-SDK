@@ -3,14 +3,22 @@ package io.branch.branchster;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
+import android.os.Build;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.json.JSONObject;
+
 import io.branch.branchster.util.MonsterPreferences;
+import io.branch.referral.Branch;
+import io.branch.referral.BranchError;
 
 public class SplashActivity extends Activity {
 
@@ -24,6 +32,11 @@ public class SplashActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        if (android.os.Build.VERSION.SDK_INT < Build.VERSION_CODES.O) {
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        }
+
         setContentView(R.layout.activity_splash);
         mContext = this;
 
@@ -41,6 +54,34 @@ public class SplashActivity extends Activity {
         super.onStart();
         // TODO: Initialize Branch session.
         // TODO: If a monster was linked to, open the viewer Activity to that Monster.
+        Branch branch = Branch.getInstance();
+
+        // Branch init
+        branch.initSession(new Branch.BranchReferralInitListener() {
+            @Override
+            public void onInitFinished(JSONObject referringParams, BranchError error) {
+                if (error == null) {
+                    // params are the deep linked params associated with the link that the user clicked -> was re-directed to this app
+                    // params will be empty if no data found
+                    try {
+                        if (!TextUtils.isEmpty(referringParams.getString("monster_name")) && !TextUtils.isEmpty(referringParams.getString("body_index")) && !TextUtils.isEmpty(referringParams.getString("face_index")) && !TextUtils.isEmpty(referringParams.getString("color_index"))) {
+
+                            MonsterPreferences prefs = MonsterPreferences.getInstance(getApplicationContext());
+                            prefs.setBodyIndex(referringParams.getString("body_index"));
+                            prefs.setColorIndex(referringParams.getString("color_index"));
+                            prefs.setFaceIndex(referringParams.getString("face_index"));
+                            prefs.setMonsterName(referringParams.getString("monster_name"));
+
+                        }
+                    } catch (Exception ex) {
+                        Log.i("BRANCH SDK", ex.toString());
+                    }
+                    Log.i("BRANCH SDK", referringParams.toString());
+                } else {
+                    Log.i("BRANCH SDK", error.getMessage());
+                }
+            }
+        }, this.getIntent().getData(), this);
         proceedToAppTransparent();
     }
 

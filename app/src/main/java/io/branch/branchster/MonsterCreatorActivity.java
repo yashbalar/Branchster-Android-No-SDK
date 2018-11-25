@@ -13,6 +13,7 @@ import io.branch.branchster.util.ColorController;
 import io.branch.branchster.util.MonsterImageView;
 import io.branch.branchster.util.MonsterObject;
 import io.branch.branchster.util.MonsterPreferences;
+import io.branch.referral.util.BranchEvent;
 
 /**
  * This class is where the user can create their own monster. It is the first that the user sees if
@@ -126,6 +127,21 @@ public class MonsterCreatorActivity extends Activity {
         new ColorController(this, monsterImageView_).start();
     }
 
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        logBranchEvent();
+    }
+
+    private void logBranchEvent() {
+
+        /*Track that the user visited the monster edit page (call event "monster_edit")
+        on the MonsterCreatorActivity*/
+        new BranchEvent("monster_edit")
+                .logEvent(MonsterCreatorActivity.this);
+    }
 
     @Override
     public void onBackPressed() {

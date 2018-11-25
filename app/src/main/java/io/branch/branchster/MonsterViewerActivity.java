@@ -12,11 +12,18 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import io.branch.branchster.fragment.InfoFragment;
 import io.branch.branchster.util.MonsterImageView;
 import io.branch.branchster.util.MonsterObject;
 import io.branch.branchster.util.MonsterPreferences;
+import io.branch.indexing.BranchUniversalObject;
+import io.branch.referral.Branch;
+import io.branch.referral.BranchError;
+import io.branch.referral.util.BRANCH_STANDARD_EVENT;
+import io.branch.referral.util.BranchEvent;
+import io.branch.referral.util.LinkProperties;
 
 public class MonsterViewerActivity extends FragmentActivity implements InfoFragment.OnFragmentInteractionListener {
     static final int SEND_SMS = 12345;
@@ -93,10 +100,57 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
             // set my monster image
             monsterImageView_.setMonster(myMonsterObject);
 
-            progressBar.setVisibility(View.GONE);
+            /* Using an asynchronous method inside `initUI()`, get a shortURL with params,
+            using the static keys provided in `MonsterPreferences` and the values from
+            `myMonsterObject.prepareBranchDict()`. Put that URL into the
+            `monsterUrl` TextView, and be sure to move the
+            `progressBar.setVisibility(View.GONE);` inside the completionhandler */
+            BranchUniversalObject branchUniversalObject = myMonsterObject.toBranchUniversalObject();
+
+            LinkProperties lp = new LinkProperties()
+                    .setChannel("sms")
+                    .setFeature("sharing")
+                    .setCampaign("SMS 1");
+
+            branchUniversalObject.generateShortUrl(this, lp, new Branch.BranchLinkCreateListener() {
+                @Override
+                public void onLinkCreate(String url, BranchError error) {
+                    if (error == null) {
+                        monsterUrl.setText(url);
+                        Log.i("BRANCH SDK", "got my Branch link to share: " + url);
+                    }
+                    progressBar.setVisibility(View.GONE);
+                }
+            });
+
         } else {
             Log.e(TAG, "Monster is null. Unable to view monster");
         }
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        logViewBranchEvent();
+    }
+
+    private void logViewBranchEvent() {
+
+        /*Track that the user visited the monster view page (call event "monster_view")
+        on the MonsterViewerActivity. This time, include state information (specified
+        in `myMonsterObject.monsterMetaData()`)*/
+        new BranchEvent("monster_view")
+                .addContentItems(myMonsterObject.toBranchUniversalObject())
+                .logEvent(MonsterViewerActivity.this);
+    }
+
+    private void logShareBranchEvent() {
+
+        /*Track successful Share via Branch */
+        new BranchEvent(BRANCH_STANDARD_EVENT.SHARE)
+                .addContentItems(myMonsterObject.toBranchUniversalObject())
+                .logEvent(MonsterViewerActivity.this);
     }
 
     /**
@@ -105,20 +159,35 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
     private void shareMyMonster() {
         progressBar.setVisibility(View.VISIBLE);
 
-        String url = "http://example.com"; // TODO: Replace with Branch-generated shortUrl
+        BranchUniversalObject branchUniversalObject = myMonsterObject.toBranchUniversalObject();
 
-        Intent i = new Intent(Intent.ACTION_SEND);
-        i.setType("text/plain");
-        i.putExtra(Intent.EXTRA_TEXT, String.format("Check out my Branchster named %s at %s", myMonsterObject.getMonsterName(), url));
-        startActivityForResult(i, SEND_SMS);
+        LinkProperties lp = new LinkProperties()
+                .setChannel("sms")
+                .setFeature("sharing")
+                .setCampaign("SMS 1");
 
-        progressBar.setVisibility(View.GONE);
+        branchUniversalObject.generateShortUrl(this, lp, new Branch.BranchLinkCreateListener() {
+            @Override
+            public void onLinkCreate(String url, BranchError error) {
+                if (error == null) {
+                    Log.i("BRANCH SDK", "got my Branch link to share: " + url);
+                    Intent i = new Intent(Intent.ACTION_SEND);
+                    i.setType("text/plain");
+                    i.putExtra(Intent.EXTRA_TEXT, String.format("Check out my Branchster named %s at %s", myMonsterObject.getMonsterName(), url));
+                    startActivityForResult(i, SEND_SMS);
+                } else {
+                    Toast.makeText(getApplicationContext(), error.getMessage(), Toast.LENGTH_LONG).show();
+                }
+                progressBar.setVisibility(View.GONE);
+            }
+        });
+
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (SEND_SMS == requestCode) {
             if (RESULT_OK == resultCode) {
-                // TODO: Track successful share via Branch.
+                logShareBranchEvent();
             }
         }
     }

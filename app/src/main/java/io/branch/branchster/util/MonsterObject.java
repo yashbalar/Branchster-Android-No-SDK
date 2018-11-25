@@ -6,6 +6,9 @@ import android.os.Parcelable;
 import java.util.HashMap;
 import java.util.Map;
 
+import io.branch.indexing.BranchUniversalObject;
+import io.branch.referral.util.ContentMetadata;
+
 /**
  * Created by marshall on 3/9/17.
  */
@@ -92,6 +95,20 @@ public class MonsterObject implements Parcelable {
         map.put("monster_name", monsterName);
 
         return map;
+    }
+
+    public BranchUniversalObject toBranchUniversalObject() {
+        return new BranchUniversalObject()
+                .setTitle(String.format("My Branchster: %s", monsterName))
+                .setContentDescription(monsterDescription)
+                .setContentImageUrl(getMonsterImage())
+                .setContentMetadata(new ContentMetadata()
+                        .addCustomMetadata("monster", "true")
+                        .addCustomMetadata("monster_name", monsterName)
+                        .addCustomMetadata(MonsterPreferences.KEY_COLOR_INDEX, "" + colorIndex)
+                        .addCustomMetadata(MonsterPreferences.KEY_BODY_INDEX, "" + bodyIndex)
+                        .addCustomMetadata(MonsterPreferences.KEY_FACE_INDEX, "" + faceIndex)
+                );
     }
 
     //////////////////////////////////////////////

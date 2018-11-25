@@ -7,7 +7,7 @@
     https://github.com/BranchMetrics/Branch-Integration-Guides/blob/master/android-quick-start.md
     -->
     <string name="branch_key">key_live_bgLhzffw2xtVC1BwZyhn6aaaqua4v20g</string>
-    <string name="branch_key_test">secret_live_GsXCC3mCNB4H7ioQFodjrJsA36AHrTxr</string>
+    <string name="branch_key_test">key_test_lmVkAdnEYBCMqXqt5rcUVgkfrCjZF18A</string>
 
 
     <!--
