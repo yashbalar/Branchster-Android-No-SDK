@@ -1,6 +1,6 @@
 Branchster-Android-Demo-Application
 ==================
-This is an example Application demonstrating Android mobile deep linking / deeplinking using Branch SDK (Branch Metrics). Use this App to create and share Monsters.
+This is an example Application demonstrating Android mobile deep linking and tracking using Branch SDK (Branch Metrics). Use this App to create and share Monsters.
 
 ## Installing and running App directly
 You can run the App directly by downloading and installing the app-release.apk file following the steps below:
