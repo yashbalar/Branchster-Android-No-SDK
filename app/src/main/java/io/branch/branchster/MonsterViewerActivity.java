@@ -100,11 +100,12 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
             // set my monster image
             monsterImageView_.setMonster(myMonsterObject);
 
-            /* Using an asynchronous method inside `initUI()`, get a shortURL with params,
+            /* TASK #2 #c Using an asynchronous method inside `initUI()`, get a shortURL with params,
             using the static keys provided in `MonsterPreferences` and the values from
             `myMonsterObject.prepareBranchDict()`. Put that URL into the
             `monsterUrl` TextView, and be sure to move the
-            `progressBar.setVisibility(View.GONE);` inside the completionhandler */
+            `progressBar.setVisibility(View.GONE);` inside the completionhandler
+            method(generateShortUrl) is asynchronous*/
             BranchUniversalObject branchUniversalObject = myMonsterObject.toBranchUniversalObject();
 
             LinkProperties lp = new LinkProperties()
@@ -137,7 +138,7 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
 
     private void logViewBranchEvent() {
 
-        /*Track that the user visited the monster view page (call event "monster_view")
+        /* TASK #2 #b Track that the user visited the monster view page (call event "monster_view")
         on the MonsterViewerActivity. This time, include state information (specified
         in `myMonsterObject.monsterMetaData()`)*/
         new BranchEvent("monster_view")
@@ -147,7 +148,7 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
 
     private void logShareBranchEvent() {
 
-        /*Track successful Share via Branch */
+        /* TASK #2 #d Track successful Share via Branch */
         new BranchEvent(BRANCH_STANDARD_EVENT.SHARE)
                 .addContentItems(myMonsterObject.toBranchUniversalObject())
                 .logEvent(MonsterViewerActivity.this);
@@ -158,6 +159,11 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
      */
     private void shareMyMonster() {
         progressBar.setVisibility(View.VISIBLE);
+
+        /* TASK #2 #d #e Inside `shareMyMonster`, get a short URL with params. Get the params
+        from `myMonsterObject.prepareBranchDict()`, set the channel to be "sms",
+        and make sure that you use an asynchronous method.
+        method(generateShortUrl) is asynchronous */
 
         BranchUniversalObject branchUniversalObject = myMonsterObject.toBranchUniversalObject();
 

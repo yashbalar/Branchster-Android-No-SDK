@@ -97,6 +97,7 @@ public class MonsterObject implements Parcelable {
         return map;
     }
 
+    // TASK #2 Helper Method to convert MonsterObject to BranchUniversalObject for Branch logging and generating short Url
     public BranchUniversalObject toBranchUniversalObject() {
         return new BranchUniversalObject()
                 .setTitle(String.format("My Branchster: %s", monsterName))

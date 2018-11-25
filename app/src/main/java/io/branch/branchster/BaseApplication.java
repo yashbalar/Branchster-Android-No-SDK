@@ -9,11 +9,7 @@ public class BaseApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
-        // Branch logging for debugging
-        Branch.enableLogging();
-
-        // Initialize the Branch object
+        // TASK #1 Initialize the Branch object
         Branch.getAutoInstance(this);
     }
 }

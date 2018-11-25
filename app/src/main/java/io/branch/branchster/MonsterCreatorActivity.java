@@ -137,7 +137,7 @@ public class MonsterCreatorActivity extends Activity {
 
     private void logBranchEvent() {
 
-        /*Track that the user visited the monster edit page (call event "monster_edit")
+        /* TASK #2 #a Track that the user visited the monster edit page (call event "monster_edit")
         on the MonsterCreatorActivity*/
         new BranchEvent("monster_edit")
                 .logEvent(MonsterCreatorActivity.this);

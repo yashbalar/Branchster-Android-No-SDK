@@ -1,0 +1,216 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-83:12
+MERGED from [com.google.android.gms:play-services:6.5.87] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/play-services-6.5.87.aar/d83d1bdcacc693180cdc2f2218e954ba/AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:design:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1e34076a8c7c907bc23656991511887b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2f28b0a05871d5ee3d661024094738cf/AndroidManifest.xml:17:1-22:12
+MERGED from [io.branch.sdk.android:library:2.19.5] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/library-2.19.5.aar/6845d05aaae0894df66a4f37dced3447/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/143cc0c8ae9bdcb4110b217a4cfe6b2a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ebaf5e9e5fb72a164b5fca1569b752ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/fc5f2fc9c80042ae85d5cff69cc8ffcb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/9a96cdd95aa3c3208b197a0d8c8cddb7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/04df15a5470817b66b6d42298153cf0c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e4001356feb6aa47528e3267fd2996b1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/cff14db096d704736cbc8b8d7989b546/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/0dde582cd65fc16355c29021b3c73acc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/d9c07436157579be139b5d3351c4a1af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/73781eed2da01d520a2795e97f26cef8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/answers-shim-0.0.6.aar/4f8a968d7b3d41d70ab3007ee2845e17/AndroidManifest.xml:2:1-13:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c928149db47d80cc4169aeb55b9b086e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1572cbd5f13a26496e52343841d5d26c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/27259f07ab5b9fc2fc02de926bb2045d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9a421a5dadff2925d04cba9800b4303c/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-83:12
+	package
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:6.5.87] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/play-services-6.5.87.aar/d83d1bdcacc693180cdc2f2218e954ba/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:6.5.87] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/play-services-6.5.87.aar/d83d1bdcacc693180cdc2f2218e954ba/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:design:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1e34076a8c7c907bc23656991511887b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1e34076a8c7c907bc23656991511887b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2f28b0a05871d5ee3d661024094738cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2f28b0a05871d5ee3d661024094738cf/AndroidManifest.xml:20:5-44
+MERGED from [io.branch.sdk.android:library:2.19.5] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/library-2.19.5.aar/6845d05aaae0894df66a4f37dced3447/AndroidManifest.xml:7:5-9:41
+MERGED from [io.branch.sdk.android:library:2.19.5] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/library-2.19.5.aar/6845d05aaae0894df66a4f37dced3447/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/143cc0c8ae9bdcb4110b217a4cfe6b2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/143cc0c8ae9bdcb4110b217a4cfe6b2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ebaf5e9e5fb72a164b5fca1569b752ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ebaf5e9e5fb72a164b5fca1569b752ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/fc5f2fc9c80042ae85d5cff69cc8ffcb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/fc5f2fc9c80042ae85d5cff69cc8ffcb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/9a96cdd95aa3c3208b197a0d8c8cddb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/9a96cdd95aa3c3208b197a0d8c8cddb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/04df15a5470817b66b6d42298153cf0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/04df15a5470817b66b6d42298153cf0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e4001356feb6aa47528e3267fd2996b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e4001356feb6aa47528e3267fd2996b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/cff14db096d704736cbc8b8d7989b546/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/cff14db096d704736cbc8b8d7989b546/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/0dde582cd65fc16355c29021b3c73acc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/0dde582cd65fc16355c29021b3c73acc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/d9c07436157579be139b5d3351c4a1af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/d9c07436157579be139b5d3351c4a1af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/73781eed2da01d520a2795e97f26cef8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/73781eed2da01d520a2795e97f26cef8/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/answers-shim-0.0.6.aar/4f8a968d7b3d41d70ab3007ee2845e17/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/answers-shim-0.0.6.aar/4f8a968d7b3d41d70ab3007ee2845e17/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c928149db47d80cc4169aeb55b9b086e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c928149db47d80cc4169aeb55b9b086e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1572cbd5f13a26496e52343841d5d26c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1572cbd5f13a26496e52343841d5d26c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/27259f07ab5b9fc2fc02de926bb2045d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/27259f07ab5b9fc2fc02de926bb2045d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9a421a5dadff2925d04cba9800b4303c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9a421a5dadff2925d04cba9800b4303c/AndroidManifest.xml:20:5-44
+INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:11:22-64
+application
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:13:5-81:19
+MERGED from [com.google.android.gms:play-services:6.5.87] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/play-services-6.5.87.aar/d83d1bdcacc693180cdc2f2218e954ba/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services:6.5.87] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/play-services-6.5.87.aar/d83d1bdcacc693180cdc2f2218e954ba/AndroidManifest.xml:20:5-24:19
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/answers-shim-0.0.6.aar/4f8a968d7b3d41d70ab3007ee2845e17/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/answers-shim-0.0.6.aar/4f8a968d7b3d41d70ab3007ee2845e17/AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:18:9-41
+	android:largeHeap
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:14:9-33
+	android:icon
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:17:9-45
+	android:allowBackup
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:15:9-35
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:16:9-60
+activity#io.branch.branchster.SplashActivity
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:19:9-41:20
+	android:label
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:21:13-45
+	android:launchMode
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:23:13-44
+	android:theme
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:22:13-53
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:20:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:27:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:open+data:scheme:branchsters
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:31:13-39:29
+data
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:17-34:52
+	android:host
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:21-40
+	android:scheme
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:21-49
+action#android.intent.action.VIEW
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:37:17-76
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:37:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:38:17-78
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:38:27-75
+activity#io.branch.branchster.MonsterViewerActivity
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:43:9-48:20
+	android:screenOrientation
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:47:13-49
+	android:launchMode
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:46:13-48
+	android:theme
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:44:13-70
+activity#io.branch.branchster.MonsterCreatorActivity
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:50:9-55:20
+	android:screenOrientation
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:54:13-49
+	android:launchMode
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:53:13-48
+	android:theme
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:52:13-49
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:51:13-71
+meta-data#io.branch.sdk.BranchKey
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:58:9-60:50
+	android:value
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:60:13-47
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:59:13-51
+meta-data#io.branch.sdk.BranchKey.test
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:61:9-63:55
+	android:value
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:63:13-52
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:62:13-56
+meta-data#io.branch.sdk.TestMode
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:66:9-68:37
+	android:value
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:68:13-34
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:67:13-50
+receiver#io.branch.referral.InstallListener
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:71:9-77:20
+	android:exported
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:73:13-36
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:72:13-62
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:74:13-76:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:75:17-79
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:75:25-76
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:79:9-107
+	android:value
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:79:66-105
+	android:name
+		ADDED from /Users/yashbalar/AndroidStudioProjects/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:79:20-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services:6.5.87] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/play-services-6.5.87.aar/d83d1bdcacc693180cdc2f2218e954ba/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services:6.5.87] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/play-services-6.5.87.aar/d83d1bdcacc693180cdc2f2218e954ba/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services:6.5.87] /Users/yashbalar/.gradle/caches/transforms-1/files-1.1/play-services-6.5.87.aar/d83d1bdcacc693180cdc2f2218e954ba/AndroidManifest.xml:22:13-58

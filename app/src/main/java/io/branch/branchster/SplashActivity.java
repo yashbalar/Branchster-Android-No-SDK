@@ -52,12 +52,9 @@ public class SplashActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
-        // TODO: Initialize Branch session.
-        // TODO: If a monster was linked to, open the viewer Activity to that Monster.
-        Branch branch = Branch.getInstance();
 
-        // Branch init
-        branch.initSession(new Branch.BranchReferralInitListener() {
+        // TASK #FINAL: Branch init and deeplink monster
+        Branch.getInstance().initSession(new Branch.BranchReferralInitListener() {
             @Override
             public void onInitFinished(JSONObject referringParams, BranchError error) {
                 if (error == null) {
@@ -76,7 +73,6 @@ public class SplashActivity extends Activity {
                     } catch (Exception ex) {
                         Log.i("BRANCH SDK", ex.toString());
                     }
-                    Log.i("BRANCH SDK", referringParams.toString());
                 } else {
                     Log.i("BRANCH SDK", error.getMessage());
                 }
