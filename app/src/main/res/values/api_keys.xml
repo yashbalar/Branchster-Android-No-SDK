@@ -4,10 +4,10 @@
     <!--
     Your Branch App Key Goes Here
     If you don't have one, see the Branch Android Quick-Start for how to get one:
-    https://github.com/BranchMetrics/Branch-Integration-Guides/blob/master/android-quick-start.md
+    https://github.com/BranchMetrics/Branch-Integration-Gukey_live_bgLhzffw2xtVC1BwZyhn6aaaqua4v20gides/blob/master/android-quick-start.md
     -->
-    <string name="branch_key">key_live_bgLhzffw2xtVC1BwZyhn6aaaqua4v20g</string>
-    <string name="branch_key_test">key_test_lmVkAdnEYBCMqXqt5rcUVgkfrCjZF18A</string>
+    <string name="branch_key">YOUR BRANCH APP KEY</string>
+    <string name="branch_key_test">YOUR BRANCH APP TEST KEY</string>
 
 
     <!--
